@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 
-import express from 'express';
+import express, { response } from 'express';
 
 async function loadOpinions() {
   try {
